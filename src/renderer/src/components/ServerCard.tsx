@@ -78,7 +78,7 @@ function ServerCard({ server, onStart, onStop, onOpen, onSave, onRemove }: Props
             Pasta de trabalho (cwd)
             <input
               value={cwd}
-              placeholder="ex.: G:\Meu Drive\Scripts\Projeto_efrota"
+              placeholder="ex.: C:\dev\loja-api"
               onChange={(e) => setCwd(e.target.value)}
             />
           </label>
