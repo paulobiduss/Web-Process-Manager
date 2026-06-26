@@ -4,6 +4,7 @@
 
 Aplicativo Windows (Electron) que varre as portas TCP em escuta, identifica automaticamente os servidores de aplicação que você subiu (uvicorn, Flask, Node, Vite, etc.) e mostra cada um como um card com status, porta, PID e botões de **Start / Stop / Abrir**.
 
+![Preview da interface](docs/screenshot.svg?v=2)
 
 > A imagem acima é uma prévia da interface. Para usar uma captura real, rode `npm run dev`, tire um print da janela e salve em `docs/screenshot.png` (e troque o link acima).
 
