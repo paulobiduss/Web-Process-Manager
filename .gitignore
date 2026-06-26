@@ -1,0 +1,14 @@
+node_modules
+dist
+out
+.DS_Store
+.eslintcache
+*.log*
+
+# bancos / temporários
+*.db
+*.db-shm
+*.db-wal
+
+# config local de ferramentas de IA
+.claude/
